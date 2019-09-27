@@ -1,0 +1,101 @@
+PODS:
+  - Alamofire (4.5.0)
+  - DropDown (2)
+  - Firebase/Core (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.0):
+    - FirebaseCore (= 5.0.5)
+  - Firebase/Messaging (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.5):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - IQKeyboardManager (5.0.7)
+  - MRCountryPicker (0.0.6)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - OpalImagePicker (1.4.0)
+  - Protobuf (3.6.0)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - DropDown
+  - Firebase/Core
+  - Firebase/Messaging
+  - FMDB
+  - IQKeyboardManager
+  - MRCountryPicker (from `https://github.com/useeless37/MRCountryPicker.git`)
+  - OpalImagePicker (~> 1.4.0)
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FMDB
+    - GoogleToolboxForMac
+    - IQKeyboardManager
+    - nanopb
+    - OpalImagePicker
+    - Protobuf
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  MRCountryPicker:
+    :git: https://github.com/useeless37/MRCountryPicker.git
+
+CHECKOUT OPTIONS:
+  MRCountryPicker:
+    :commit: b1d2de854a492deb30c8766648d6b9f1686bc80f
+    :git: https://github.com/useeless37/MRCountryPicker.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  Firebase: d66f4f29c23f22d96808d9abc174d81d8eee968f
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 42b3267233bd21a5abd54117ccc38ca3dd0f8e83
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  MRCountryPicker: 81d5d6a595c0ef2ce7ca5bdfa41befb0cdfa2a0d
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  OpalImagePicker: 64c2d87f8e1839d1233a6720d3909a22504e3c5d
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: 2beb88ddcbdcfa57f666a4c3cf5a352b7c9b4e5d
+
+COCOAPODS: 1.5.3

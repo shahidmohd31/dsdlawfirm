@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LawyerApp' do
+pod 'Alamofire', '~> 4.4'
+pod 'SQLite.swift'
+
+end
+
